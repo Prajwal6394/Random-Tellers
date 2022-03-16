@@ -88,7 +88,12 @@ footer {
   text-transform: capitalize;
   line-height: 2rem;
 }
-
+.footer-h4{
+    font-size: 1.2rem;
+    font-weight: 50;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
 .footer-content p {
   max-width: 800px;
   margin: 1px auto;
@@ -96,3 +101,33 @@ footer {
   font-size: 14px;
   color: #cacdd2;
 }
+
+header {
+    padding: 60px;
+    text-align: center;
+   
+    font-size: 30px;
+  }
+
+  @keyframes move{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 50%;
+    }
+    100%{
+          left: 0%;
+    }
+ }
+
+  .header-Logo{
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    
+     
+
+  }
