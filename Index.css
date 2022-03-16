@@ -121,7 +121,7 @@ header {
     }
  }
 
-  .header-Logo{
+  .header-Logo img{
     position: relative;
     animation-name: move;
     animation-duration: 2s;

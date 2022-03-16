@@ -8,8 +8,7 @@ var getQuote = () => {
   fetch(url)
     .then((data) => data.json())
    .then ((item) => {
-       console.log(item.content);
-       console.log(item.author);
+       
        quote.innerHTML = item.content;
        author.innerHTML = item.author;
    })
