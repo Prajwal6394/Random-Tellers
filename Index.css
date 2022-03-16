@@ -83,15 +83,15 @@ footer {
   text-align: center;
 }
 .footer-content h3 {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-weight: 500;
   text-transform: capitalize;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 .footer-content p {
   max-width: 800px;
-  margin: 10px auto;
+  margin: 1px auto;
   line-height: 28px;
   font-size: 14px;
   color: #cacdd2;
